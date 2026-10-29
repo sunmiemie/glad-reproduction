@@ -1,0 +1,18 @@
+# Tested with Python 3.9.13, Windows x64. Install the torch CPU/CUDA build first.
+# YOLOv5 v6.0 imports pkg_resources, removed by setuptools 82.
+setuptools>=58.1,<82
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.0.2
+opencv-python==4.13.0.92
+Pillow==11.1.0
+PyYAML==6.0.3
+requests==2.32.5
+scipy==1.13.1
+pandas==2.2.3
+matplotlib==3.9.4
+seaborn==0.13.2
+tqdm==4.67.3
+psutil==7.2.2
+imageio-ffmpeg==0.6.0
+pytest==8.4.2

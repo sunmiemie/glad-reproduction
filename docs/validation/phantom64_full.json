@@ -1,0 +1,51 @@
+{
+  "source": "phantom64.mp4",
+  "source_fps": 29.97002997002997,
+  "start_frame": 0,
+  "processed_frames": 1798,
+  "completed_requested_run": true,
+  "stopped_by_user": false,
+  "branches": {
+    "GAD": 2,
+    "LAD": 1621,
+    "miss": 172,
+    "LMD": 2,
+    "GMD": 1
+  },
+  "modes": {
+    "global": 7,
+    "local": 1791
+  },
+  "detection_coverage": 0.9043381535038932,
+  "coverage_warning": "Coverage counts model outputs, NOT accuracy, recall or AP; no ground truth evaluated.",
+  "pipeline_fps": 6.435172352884702,
+  "pipeline_ms_mean": 155.39599332591752,
+  "pipeline_ms_p95": 207.58633500000158,
+  "end_to_end_fps": 6.041465528089879,
+  "wall_seconds": 297.60990799999996,
+  "model_setup_and_warmup_seconds": 9.495280300000001,
+  "video_codec": "H.264",
+  "video_finalize_error": null,
+  "device": "cpu",
+  "torch": "2.8.0+cpu",
+  "opencv": "4.13.0",
+  "python": "3.9.13",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "threads": 4,
+  "config": {
+    "roi_size": 300,
+    "roi_growth": 4,
+    "max_lost": 30,
+    "association_radius": 50,
+    "prediction": true,
+    "motion": true,
+    "global_only": false
+  },
+  "imgsz": 640,
+  "global_conf": 0.5,
+  "local_conf": 0.1,
+  "source_reported_frames": 1827,
+  "reached_decoder_eof": true,
+  "eof_before_reported_count": true,
+  "frame_count_note": "Reported count comes from container metadata; processed_frames counts decoded images. An early EOF requires source verification."
+}

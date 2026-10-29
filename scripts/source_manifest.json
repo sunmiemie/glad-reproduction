@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "glad": {
+    "repository": "https://github.com/WindyLab/Global-Local-MAV-Detection",
+    "revision": "ab9fd85e60c3f4cb61d79ea8ecd19d9362f5b380"
+  },
+  "yolov5": {
+    "repository": "https://github.com/ultralytics/yolov5",
+    "tag": "v6.0",
+    "revision": "956be8e642b5c10af4a1533e09084ca32ff4f21f",
+    "archive_sha256": "8f24dbd59a9320852e9804a1c342a9d35ec51002dcb38b15cefc653538167fab",
+    "runtime_files": {
+      "models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "models/common.py": "71d6e15aee84e8cde2a0c64920f7421fdc6beaff4cd26f64dd82ec358b5f2fb0",
+      "models/experimental.py": "d7184a05aaedc2f4713c2003c4f27065f1fc1fe3bbbbeb24680f7ced5b62555b",
+      "models/tf.py": "bba4b2c11038ebe2feff3d4fec55c2de57b413b5089cbd5177da64d3d9f9416a",
+      "models/yolo.py": "2798216ff437235cf854eb8aaaf3258f8aeb3c957f587e0031005ca085f613fa",
+      "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/activations.py": "5a88f4551da6451bd0b7e403f18cb18f778da22cf378663a6f48aac7dcd832b4",
+      "utils/augmentations.py": "8f4a615bd6ba9fbd65d591fdb9209945a45147c15f88c5736dc382685b83def7",
+      "utils/autoanchor.py": "5b5065dd3e49412ad14516dbabe80688f3a0f587823f87aa259bf4306f30eec9",
+      "utils/aws/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/aws/resume.py": "19e21ffeb36c9881299af38f43b6d9a7ca45f4e3f2eb6f3b5636de8079514748",
+      "utils/callbacks.py": "ac5d167f8b160d1f5d00df660bebe5dc2c14d040015cc33e8f34aab330bd825e",
+      "utils/datasets.py": "e9a66c0c6eac420277094a224f12a100dca63c89fad9ee93aa641df45cb18d67",
+      "utils/downloads.py": "5d9a7e303c201e1eaff058b6f05b7fae4e63981a7f3c58e856fbebbbe3611ab2",
+      "utils/flask_rest_api/example_request.py": "8a19ab920ed4d3cbe0094e1fc1eb0dec30bfc7add1e524524b2f1a0d696a64c9",
+      "utils/flask_rest_api/restapi.py": "ed455b13b98b1dd3b9ba54cab30863b1e841610ad8346d689e02ba40a495396b",
+      "utils/general.py": "e0583e520f9f3e6b071c54805a6ac62a527475cd43e196fa62627c06dae4b6f0",
+      "utils/loggers/__init__.py": "a69878bac08e651929bc901c30242e2824ce85a6e9e404bfcf0eb80940b4a6fa",
+      "utils/loggers/wandb/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "utils/loggers/wandb/log_dataset.py": "94b82715979282a066cefec7e14dd9a0d7afc0fff829a3d90dcf4d95a21ae78a",
+      "utils/loggers/wandb/sweep.py": "3713ce956fa64bf11c4d56135da24140cc2da198ba59ce259bcd1e4169065579",
+      "utils/loggers/wandb/wandb_utils.py": "9e5ff8a465d08e2ca8f7b9921a4ee0bb967dc85bb51889bf46e7453c50c69178",
+      "utils/loss.py": "610b4e3ef4fcff0f2b7eaaf98a5532076397a30d399fa05e021fc94b42a67843",
+      "utils/metrics.py": "137f499b43119bfeb3470de576460b8669b3e93ab74380a1e0d3604cba9b306d",
+      "utils/plots.py": "cd91870be493e0cff17ab500c0972b6c019e19f95872cf3b238d1d9c39a5e301",
+      "utils/torch_utils.py": "d1adefdb4059aa12a2a1f8cc4e20a4f9abf92ca1bdb556c5ac16b9bff32d4ac8"
+    }
+  },
+  "weights": {
+    "Net_best.pth": {
+      "sha256": "0d3a4631060339ee72551a89e95887fc49a2d50f9f3473ef354cf3db2830faf5",
+      "bytes": 248841
+    },
+    "yolov5s_GLAD-crop.pt": {
+      "sha256": "031813a6c7ef8446080528e198b4f4e44ee936f066d1b12612adc4ef8af0d8a0",
+      "bytes": 14454645
+    },
+    "yolov5s_GLAD.pt": {
+      "sha256": "9e8edde080cf9e1eac0fcd68c12d7073bb23dac4059f2929ed3a06f301537a0c",
+      "bytes": 14359541
+    }
+  }
+}
