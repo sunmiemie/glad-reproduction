@@ -10,6 +10,8 @@
 
 ## 1. 运行方法
 
+**Windows 11 + RTX 4060 迁移：** 参见 [GPU 迁移操作说明](docs/windows_rtx4060_migration.md)。新电脑使用独立 `.venv-cuda`、CUDA 12.6 版 PyTorch 和 `--device cuda:0`；本节后面的 CPU 安装命令用于 CPU 基线。
+
 ### 当前电脑
 
 本目录已建立 `.venv`，作者权重位于 `weights/`，固定版本的 YOLOv5 位于 `external/yolov5/`。当前机器使用 CPU；AMD 集成显卡不会通过 `--device cuda:0` 自动获得加速。

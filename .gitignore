@@ -1,4 +1,7 @@
 .venv/
+.venv-cuda/
+videos/
+dist/
 external/
 weights/
 runs/
